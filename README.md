@@ -112,10 +112,10 @@ Shows **Completed, Running, Ready, Waiting** simultaneously — ideal for viva d
 ![Running](screenshots/screenshot_02_running_ready.png)
 
 ### All Process States
-![All States](screenshots/screenshot_03_all_states.png)
+![Waiting](screenshots/screenshot_04_waiting_state.png)
 
 ### Waiting State
-![Waiting](screenshots/screenshot_04_waiting_state.png)
+![All States](screenshots/screenshot_03_all_states.png)
 
 ---
 
