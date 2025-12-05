@@ -133,16 +133,22 @@ Shows **Completed, Running, Ready, Waiting** simultaneously — ideal for viva d
 
 ## 📂 File Structure
 
-project.py          # Main simulator code
-screenshots/        # Output demonstration images
-README.md           # Documentation
-LICENSE             # MIT open source license
-.gitignore          # Python git ignore rules
+project.py              # Main simulator application
+screenshots/            # GUI output demonstration images
+│── screenshot_01_initial_view.png
+│── screenshot_02_running_ready.png
+│── screenshot_03_waiting_state.png
+│── screenshot_04_all_states.png
+README.md               # Documentation and project explanation
+LICENSE                 # MIT open source license
+.gitignore              # Git ignore rules
 
 ---
 
 ## ▶️ How to Run
 
-```bash
+# (Optional if psutil is not already installed)
 pip install psutil
+
+# Run the simulator
 python project.py
