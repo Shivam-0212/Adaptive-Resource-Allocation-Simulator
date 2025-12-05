@@ -109,13 +109,13 @@ Shows **Completed, Running, Ready, Waiting** simultaneously — ideal for viva d
 ![Initial GUI](screenshots/screenshot_01_initial_view.png)
 
 ### Running & Ready
-![Running](screenshots/screenshot_02_running_ready.png)
-
-### All Process States
-![Waiting](screenshots/screenshot_04_waiting_state.png)
+![Running & Ready](screenshots/screenshot_02_running_ready.png)
 
 ### Waiting State
-![All States](screenshots/screenshot_03_all_states.png)
+![Waiting State](screenshots/screenshot_03_waiting_state.png)
+
+### All Process States
+![All States](screenshots/screenshot_04_all_states.png)
 
 ---
 
