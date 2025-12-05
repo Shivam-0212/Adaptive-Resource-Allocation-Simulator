@@ -52,7 +52,7 @@ This project demonstrates how **adaptive resource allocation** can improve stabi
 - Progress bars for execution visualization  
 
 **Backend:**  
-- Python  
+- `Python`
 - `threading` for concurrent scheduling and GUI updates  
 - `psutil` for system usage monitoring  
 
@@ -81,41 +81,6 @@ This project demonstrates how **adaptive resource allocation** can improve stabi
 ### Termination
 - When progress reaches 100% → state changes to *Completed*
 
----
-
-## 🧪 Case Demonstrations
-
-### Case 1: Single Process Running
-- Requested CPU: 10%
-- Requested Memory: 256 MB  
-→ System remains stable, no waiting state.
-
-### Case 2: Multiple Ready Processes
-- Two processes request CPU under 100%
-→ Both get CPU allocated, ready queue visible.
-
-### Case 3: Memory Bottleneck
-- Requested memory exceeds available limit  
-→ Extra processes enter *Waiting* state.
-
-### Case 4: All States Together
-Shows **Completed, Running, Ready, Waiting** simultaneously — ideal for viva demonstration.
-
----
-
-## 📸 Screenshots
-
-### Initial View
-![Initial GUI](screenshots/screenshot_01_initial_view.png)
-
-### Running & Ready
-![Running & Ready](screenshots/screenshot_02_running_ready.png)
-
-### Waiting State
-![Waiting State](screenshots/screenshot_03_waiting_state.png)
-
-### All Process States
-![All States](screenshots/screenshot_04_all_states.png)
 
 ---
 
@@ -162,3 +127,20 @@ pip install psutil
 ```bash
 python project.py
 ```
+---
+
+## 📸 Screenshots
+
+### Initial View
+![Initial GUI](screenshots/screenshot_01_initial_view.png)
+
+### Running & Ready
+![Running & Ready](screenshots/screenshot_02_running_ready.png)
+
+### Waiting State
+![Waiting State](screenshots/screenshot_03_waiting_state.png)
+
+### All Process States
+![All States](screenshots/screenshot_04_all_states.png)
+
+---
