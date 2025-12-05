@@ -92,7 +92,7 @@ This project demonstrates how **adaptive resource allocation** can improve stabi
 | GUI | Tkinter |
 | Monitoring | psutil |
 | Concurrency | threading |
-| Visualization | ttk Progressbars |
+| Visualization | ttk Progress Bars |
 
 ---
 
