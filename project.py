@@ -5,7 +5,6 @@ Adaptive Resource Allocation Simulator — Realistic Multiprogramming
 - Black execution progress bars
 - Fully working Add / Delete / Reset
 - Execution speed boosted ~1.5x
-Requires: psutil library
 """
 
 import tkinter as tk
@@ -326,5 +325,6 @@ def main():
 
 if __name__=="__main__":
     main()
+
 
 
