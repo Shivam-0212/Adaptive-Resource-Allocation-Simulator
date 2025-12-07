@@ -3,7 +3,7 @@ Adaptive Resource Allocation Simulator — Realistic Multiprogramming
 - Processes can be Ready, Waiting, Running, Completed
 - CPU allocation capped at 100%, memory limited to 2048 MB
 - Black execution progress bars
-- Fully working Add / Delete / Reset
+- Fully working Add / Delete / Reset buttons
 - Execution speed boosted ~1.5x
 """
 
@@ -45,7 +45,7 @@ class ResourceSchedulerGUI:
         self.updating = True
 
         # Simulated memory limit
-        self.total_memory_mb = 2048  # cap to 2048 MB
+        self.total_memory_mb = 2048  # limit to 2048 MB
 
         # Style
         self.style = ttk.Style()
@@ -252,7 +252,7 @@ class ResourceSchedulerGUI:
                     ready_queue.append(p)
                     mem_used += p.mem_request
 
-            # Allocate CPU to Ready processes (respect 100% CPU cap)
+            # Allocate CPU to Ready processes (respect 100% CPU)
             running_procs = []
             cpu_allocated = 0.0
             for p in ready_queue:
@@ -325,6 +325,7 @@ def main():
 
 if __name__=="__main__":
     main()
+
 
 
 
