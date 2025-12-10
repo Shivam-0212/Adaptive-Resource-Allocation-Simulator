@@ -72,14 +72,14 @@ This project demonstrates how **adaptive resource allocation** can improve stabi
 
 ### Memory Allocation
 - Total memory limited to **2048 MB**
-- If memory limit is reached → extra processes become *Waiting*
+- If memory limit is reached → extra processes become **Waiting**
 
 ### Scheduling Loop
 - Runs continuously in a background thread
 - Updates progress based on allocated CPU
 
 ### Termination
-- When progress reaches 100% → state changes to *Completed*
+- When progress reaches 100% → state changes to **Completed**
 
 
 ---
